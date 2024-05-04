@@ -144,7 +144,8 @@ STATICFILES_DIRS=(
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-
+SMS_SECRET_ID = "AKIDlIZZIkvpRmrfCRQ8ZjcFaeRyDBsIRIsB"  # API秘钥管理SecretId
+SMS_SECRET_KEY = "3qLL5YkfKhnb8PP7YibDYdRxCArHPGq9"  # API秘钥管理SecretKey
 SMS_APPID = '1400623566'  # 应用列表SDK AppID
 SMS_SIGN = '程序原萌新公众号'  # 签名管理的内容
 
