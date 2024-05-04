@@ -22,7 +22,7 @@ sys.path.insert(0,os.path.join(BASE_DIR,'extra_apps'))
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-b7=46&bb_szts)wtp&g9chhr1rr+&lxd6lw958yi%6xxp3s16f'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -144,8 +144,7 @@ STATICFILES_DIRS=(
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-SMS_SECRET_ID = "AKIDlIZZIkvpRmrfCRQ8ZjcFaeRyDBsIRIsB"  # API秘钥管理SecretId
-SMS_SECRET_KEY = "3qLL5YkfKhnb8PP7YibDYdRxCArHPGq9"  # API秘钥管理SecretKey
+
 SMS_APPID = '1400623566'  # 应用列表SDK AppID
 SMS_SIGN = '程序原萌新公众号'  # 签名管理的内容
 
